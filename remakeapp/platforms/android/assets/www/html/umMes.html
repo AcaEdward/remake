@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+        <script type="text/javascript" src="../js/meujs.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>1MES</title>
+    </head>
+    <body>
+
+        <a href="../index.html">Início</a><br><br>
+        <p><h1>Responda as seguintes questões...</h1></p>
+            <fieldset id="res">
+
+                <fieldset>
+                <legend>Habilidades desenvolvidas</legend>
+                A criança levanta a cabeça?<br>
+                <select id="resp1" name="resposta1">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <br><br>Reage a sons?<br>
+                <select id="resp2" name="resposta2">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <br><br>Olha fixo para rostos?<br>
+                <select id="resp3" name="resposta3">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                </fieldset>
+
+                <fieldset>            
+                <legend>Habilidades em desenvolvimento</legend>
+                A criança segue objetos com o olhar?<br>
+                <select id="resp4" name="resposta1">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <br><br>Emite sons de vogal ("a", "u")?<br>
+                <select id="resp5" name="resposta2">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                </fieldset>
+                
+                <fieldset>
+                <legend>Habilidades avançadas</legend>
+                A criança sorri?<br>
+                <select id="resp6" name="resposta1">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                <br><br>Dá gargalhada?<br>
+                <select id="resp7" name="resposta2">
+                    <option value="0">Selecione...</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+                </fieldset>
+
+
+                <br><input type="submit" value="Confirmar" onclick="seteQuest()" /></p>
+
+
+            </fieldset>
+             
+    </body>
+</html>
